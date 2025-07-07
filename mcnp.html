@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk MCNP</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
+    h1 { text-align: center; margin-bottom: 2rem; }
+    .produk-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .produk {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .produk h3 { margin-bottom: 0.5rem; }
+    .produk p { font-size: 0.9rem; color: #555; }
+    .produk a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #0066cc;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .produk a:hover { background: #004999; }
+  </style>
+</head>
+<body>
+  <h1>Produk Simulasi MCNP</h1>
+  <div class="produk-list">
+    <div class="produk">
+      <h3>Model Reaktor BWR</h3>
+      <p>Simulasi MCNP untuk reaktor boiling water reactor lengkap dengan tally dan geometri.</p>
+      <a href="#">Lihat Detail</a>
+    </div>
+    <div class="produk">
+      <h3>Simulasi Shielding</h3>
+      <p>MCNPX untuk simulasi perlindungan radiasi pada desain ruangan bunker medis.</p>
+      <a href="#">Lihat Detail</a>
+    </div>
+    <div class="produk">
+      <h3>Analisis Flux Neutron</h3>
+      <p>Contoh input MCNP untuk flux neutron di sekitar batang bahan bakar.</p>
+      <a href="#">Lihat Detail</a>
+    </div>
+  </div>
+</body>
+</html>
